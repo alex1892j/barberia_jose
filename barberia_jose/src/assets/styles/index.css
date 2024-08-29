@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.nav-menu .content-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60vw;
+}
+.nav-menu .content-menu .logo {
+  width: 300px;
+  margin: 2rem auto;
+}
+.nav-menu .content-menu .logo:hover {
+  scale: 1.2;
+}
+.nav-menu .content-menu .supmenu, .nav-menu .content-menu .supmenu-nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2rem;
+}
+.nav-menu .content-menu .supmenu .content-supmenu, .nav-menu .content-menu .supmenu-nav .content-supmenu {
+  margin: 0 2rem;
+}
+.nav-menu .content-menu .supmenu .content-supmenu .btn, .nav-menu .content-menu .supmenu-nav .content-supmenu .btn {
+  background: rgb(157, 3, 3);
+  border-radius: 5px;
+  padding: 0.3rem;
+  margin-bottom: 1rem;
+}
+.nav-menu .content-menu .supmenu .content-supmenu .btn:hover, .nav-menu .content-menu .supmenu-nav .content-supmenu .btn:hover {
+  background: rgb(3, 11, 157);
+  scale: 1.2;
+  cursor: pointer;
+}
+.nav-menu .supmenu-nav .content-supmenu-nav {
+  margin: 1rem 4rem;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}/*# sourceMappingURL=index.css.map */

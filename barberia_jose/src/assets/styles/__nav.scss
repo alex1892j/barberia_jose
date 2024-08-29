@@ -1,0 +1,57 @@
+@use '__commons' as c;
+
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    
+    .content-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 60vw;
+        
+        .logo{
+            width: 300px;
+            margin: 2rem auto;
+            &:hover{
+                scale: 1.2;
+            }
+        }
+        .supmenu, .supmenu-nav{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            gap: 2rem;
+    
+            .content-supmenu{
+                margin: 0 2rem;
+
+                .btn{
+                    background: rgba(157, 3, 3);
+                    border-radius: 5px;
+                    padding: 0.3rem;
+                    margin-bottom: 1rem;
+
+                    &:hover{
+                        background: rgb(3, 11, 157);
+                        scale: 1.2;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .supmenu-nav{
+        .content-supmenu-nav{
+            margin: 1rem 4rem;
+            font-family: "Pacifico", cursive;
+            font-weight: 400;
+            font-style: normal;
+            
+        }
+    }
+}
